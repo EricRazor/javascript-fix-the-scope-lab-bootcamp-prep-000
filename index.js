@@ -25,5 +25,5 @@ var funkyFunction = function() {return function() {return "FUNKY!"}}
 //NOTE: you only need to modify the code below this line.
 
 var theFunk = funkyFunction
-//window.theFunk = 'FUNKY!'
-theFunk = theFunk()
+window.theFunk = 'FUNKY!'
+//theFunk = theFunk()
